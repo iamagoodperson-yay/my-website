@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    background-color: #EFEFE8;
+}
+header a, header a img {
+    border-radius: 15px;
+    border-width: 0px;
+    height: 70px;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+}
+header a {
+    margin: 10px auto 10px 25px;
+}
+nav {
+    flex-direction: row;
+    background-color: #6DAC4F;
+}
+.link {
+    background-color: #6DAC4F;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    color: #EFEFE8;
+    text-decoration: none;
+    border: 2.5px transparent;
+    border-radius: 15px;
+    padding:  10px 20px;
+    margin: 10px;
+    transition: all 0.25s ease-in;
+}
+.link:hover{
+    background-color: #005500;
+    padding: 15px 30px;
+}
+.here {
+    color: #004400;
+}
+.here:hover {
+    cursor: pointer;
+    color: #EFEFE8;
+}
+header {
+    background-color: #6DAC4F;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main {
+    margin: 30px;
+    margin-top: 120px;
+}
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 100px;
+    color: tomato;
+    text-align: center;
+    padding: 5%;
+    background-color: #F2EFE7;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: #CC5801;
+    margin: 3%;
+    box-shadow: 2.5px 5px 10px grey;
+}
+h2, h3 {
+    color: #005500;
+}
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    margin: 20px;
+}
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 10px;
+}
+hr {
+    margin-block: 50px;
+    border-bottom: 4px solid #6DAC4F;
+    border-radius: 4px;
+}
+.main a {
+    transition: all 0.15s ease;
+    color: #005500;
+}
+.main a:hover {
+    color: #6DAC4F;
+}
+ol, ul, p {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+ol, ul {
+    margin-left: 40px;
+}
+td {
+    align-items: center;
+    padding: 0px 5px;
+}
+.linkimg {
+    width: fit-content;
+}
+.website {
+    max-width: 1000px;
+    height: auto;
+}
