@@ -6,23 +6,29 @@ html {
     font-family: 'Ubuntu', sans-serif;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
+* { padding: 0; margin: 0;}
 
-#main {
-    padding: 5% 5% 5% 5%;
-}
+#main { padding: 100px 5% 5% 5% }
 
-h3 { font-size: 2.5rem; color: #203c70;}
+h3 { font-size: 2.5rem; color: #252c6e; padding: .5rem;}
 p, li { font-size: 2rem; color: #3E4A3D;}
+
+footer p {
+    font-size: 1.5rem;
+    color: #FFF;
+    background-color: #252c6e;
+    
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer p a { color: #93B3F2 }
 
 /* Nav bar */
 
 nav {
     position: fixed;
-    top: -100px;
     display: flex;
     flex-direction: row;
     z-index: 1;
@@ -31,8 +37,6 @@ nav {
 
     width: 100vw;
     height: fit-content;
-
-    transition: 0.3s ease-in-out;
 }
 
 nav img {
@@ -64,21 +68,22 @@ nav a:hover {
     border-radius: 20px;
 }
 
-.current-page { color: #AAA; }
+.current-page { color: #AAA }
+.current-page:hover { color: #888 }
 
-/* Home Page header */
+/* Header */
 
 header {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    text-align: center;
 
     font-family: 'Comfortaa', cursive;
     color: #FFF;
 
-    background-image: linear-gradient(to right top, #191f52, #232a68, #2e3680, #3a4298, #454fb1, #4d5cbf, #5569cc, #5d76da, #6785de, #7393e0, #82a1e2, #92afe3);
-    height: 100vh;
+    background-image: linear-gradient(to bottom, #191f52, #232a68, #2e3680, #3a4298, #454fb1, #4d5cbf, #5569cc, #5d76da, #6785de, #7393e0, #82a1e2, #92afe3);
+    height: 70vh;
     gap: 1rem;
 }
 
@@ -90,17 +95,17 @@ header h2 {
     font-size: 2rem;
 }
 
-header .scroll {
+.scroll {
     position: absolute;
-    bottom: 18%;
-    left: 48%;
+    bottom: 20%;
+    left: 49%;
 
     font-size: 2rem;
     color: #FFF;
 
     transform: translate(0, -50%);
     transition: all 0.5s;
-    animation: scroll-btn 1.3s ease 3s infinite reverse;
+    animation: scroll-btn 1.3s ease 2s infinite reverse;
 }
 
 @keyframes scroll-btn {
@@ -114,12 +119,32 @@ header .scroll {
 .about {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+
+    padding-top: 20px;
 }
 
 .about div {
-    width: 400px;
+    background-color: #b5caf2;
+    width: 500px;
+
     padding: 30px;
-    border: 4px solid #000;
+    border: 4px solid #3E4A3D;
+    border-radius: 20px;
     margin: 20px;
 }
+.about div img { width: 50%; margin: 0% 0% 10% 25%;}
+.about div ul { padding-bottom: 20px; }
+
+.about div a {
+    font-size: 2rem;
+    color: #FFF;
+    text-decoration: none;
+
+    background-color: #252c6e;
+    padding: 1rem;
+    border-radius: 1.5rem;
+
+    transition: 0.3s ease-in-out;
+}
+.about div a:hover { color: #AAA; }
