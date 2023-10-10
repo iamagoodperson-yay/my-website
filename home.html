@@ -5,12 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Kenzie's website ◀︎ Home ▶︎</title>
+    <title>Kenzie ◀︎ Home ▶︎</title>
     <link rel="icon" type="image/x-icon" href="images/PFP.png">
 
     <link rel="stylesheet" href="style.css">
-    <link rel= "stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <script src="script.js"></script>
 
     <meta name="author" content="Kenzie">
     <meta name="description" content="Kenzie's personal website">
@@ -22,23 +20,44 @@
         <img src="images/PFP.png" alt="My porfile picture, dry ice in a beaker">
         <a class="current-page">Home</a>
         <a href="portfolio.html">Portfolio</a>
-        <a href="hobbies.html">Hobbies & Interests</a>
+        <a href="hobbies.html">Hobbies</a>
         <a href="contact.html" style="margin-right: 30px;">Contact</a>
     </nav>
 
     <header class="header" style="height: 100vh;">
             <h1>Hello!</h1>
             <h2>I'm Kenzie, the maker of this website</h2>
-        <a href="#main" class="scroll"><i class="bx bxs-down-arrow"></i></a>
+        <a href="#main" class="scroll" >↧</a>
     </header>
 
-    <div id="main">
+    <div id="main" style="padding-bottom: 6vw;">
 
-        <h3>About me</h3>
-        <p>I am a student at the School of Science of Technology, Singapore. I have done many projects, especially those related to coding. </p>
+        <h3 class="appear-top1">About me</h3>
+        <p class="appear-left1">I am a student at the School of Science of Technology, Singapore. I have done many projects, especially those related to coding. </p>
 
         <div class="about">
-            <div>
+
+            <div class="item1 appear-left2">
+                <img src="images/project.png" alt="Project icon">
+                <h3>Projects:</h3>
+                <ul>
+                    <li>This website! (with some copying, but hey, every programmer copies sometimes)</li>
+                </ul>
+                <a href="portfolio.html">See more:</a>
+            </div>
+
+            <div class="item2 appear-left3">
+                <img src="images/mental-health.png" alt="Hobbies icon">
+                <h3>Hobbies:</h3>
+                <ul>
+                    <li>Programming, especially app development and website creation (kind of obvious based on the projects I showcased)</li>
+                    <!-- <p>Procrastinating work by watching youtube, especially educational channels like Veritasium and Wendover Productions</p>
+                    <p>In my free time, I enjoy vibing out to music. (shameless self promotion, but go check out Iamaperson on spotify, it has all the songs I like, because it's my account)</p> -->
+                </ul>
+                <a href="hobbies.html">See more:</a>
+            </div>
+
+            <div class="item3 appear-left4">
                 <img src="images/speak.png" alt="Speaking icon">
                 <h3>Fun facts about me:</h3>
                     <ul>
@@ -48,30 +67,23 @@
                     </ul>
             </div>
 
-            <div>
-                <img src="images/project.png" alt="Project icon">
-                <h3>Projects:</h3>
-                <ul>
-                    <li>This website! (with some copying, but hey, every programmer copies sometimes)</li>
-                </ul>
-                <p><a href="portfolio.html/#main">See more:</a></p>
-            </div>
-
-            <div>
-                <img src="images/mental-health.png" alt="Hobbies icon">
-                <h3>Interests and hobbies:</h3>
-                <ul>
-                    <li>Programming, especially app development and website creation (kind of obvious based on the projects I showcased)</li>
-                    <!-- <p>Procrastinating work by watching youtube, especially educational channels like Veritasium and Wendover Productions</p>
-                    <p>In my free time, I enjoy vibing out to music. (shameless self promotion, but go check out Iamaperson on spotify, it has all the songs I like, because it's my account)</p> -->
-                </ul>
-                <p><a href="hobbies.html">See more:</a></p>
-            </div>
-
         </div>
+
     </div>
 
-    <footer><p>Shout out to <a href="https://www.flaticon.com" target="_blank">Flaticon</a> for the icons used in the project</p></footer>
+    <footer>
+        <h3>Copyright © 2023 Kenzie</h3>
+        <div>
+            <p>Shout out to <a href="https://www.flaticon.com" target="_blank">Flaticon</a> for the icons used in the project:</p>
+            <p><a href="https://www.flaticon.com/free-icons/speak" title="speak icons">Speak icons created by winnievinzence</a></p>
+            <p><a href="https://www.flaticon.com/free-icons/project" title="project icons">Project icons created by Freepik</a></p>
+            <p><a href="https://www.flaticon.com/free-icons/activities" title="Activities icons">Activities icons created by Flat Icons</a></p>
+        </div>
+    </footer>
 
 </body>
+
+<script src="home.js"></script>
+<script src="script.js"></script>
+
 </html>
