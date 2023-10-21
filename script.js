@@ -30,12 +30,15 @@ const tileTopObserver = new IntersectionObserver(entries => {
 tileTopObserver.observe(document.querySelector(".appear-top1"));
 tileTopObserver.observe(document.querySelector(".appear-top2"));
 
-var drop = document.querySelector(".drop")
-
 function menu(){
+  var drop = document.querySelector(".drop")
   if (drop.style.display == "none") {
     drop.style.display = "flex";
   } else {
     drop.style.display = "none";
   }
 }
+
+window.addEventListener("resize", () => {
+  console.log(window.innerWidth)
+});

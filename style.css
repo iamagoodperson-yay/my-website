@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Ubuntu&display=swap');
-
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -8,7 +7,7 @@ html {
 
 * { padding: 0; margin: 0; }
 button, a { cursor: pointer; }
-@media (prefers-reduced-motion) { * { animation: none; transitition: none; } }
+@media (prefers-reduced-motion) { * { animation: none; transition: none; } }
 
 .tile-left { animation: inLeft 1s 0.3s backwards; }
 @keyframes inLeft {
@@ -103,7 +102,7 @@ nav img {
 }
 
 .drop {
-    display: flex;
+    display: none;
     flex-direction: column;
     position: absolute;
 
@@ -277,7 +276,7 @@ header h2 { font-size: 2rem; animation: inBottom 0.5s 0.3s backwards; }
     gap: 5px;
 }
 
-.span a { display: flex; align-items: center;}
+.span a { display: flex; justify-content: center; align-items: center; }
 
 .e4 { grid-template-areas: "span1 span2 span3 span4"; }
 .e2 { grid-template-areas: "span1 span2";}

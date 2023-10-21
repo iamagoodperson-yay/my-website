@@ -1,7 +1,5 @@
-window.onscroll = function() { navBarAppear() };
 var windowHeight = window.innerHeight;
-
-function navBarAppear() {
+window.onscroll = () => {
     if ( document.body.scrollTop > (windowHeight * 0.9) || document.documentElement.scrollTop > (windowHeight * 0.9) ) {
         document.querySelector("nav").style.top = "0";
         document.querySelector(".scroll").style.animation = "none";
@@ -9,4 +7,4 @@ function navBarAppear() {
         document.querySelector("nav").style.top = "-100px";
         document.querySelector(".drop").style.display = "none";
     }
-}
+};
