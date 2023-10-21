@@ -17,20 +17,32 @@
 <body>
 
     <nav style="top: -100px;">
+
+        <div class="menu">
+            <button onclick="menu()" class="menu-selector">≡</button>
+            <div class="drop">
+                <a class="current-page">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
         <img src="images/PFP.png" alt="My porfile picture, dry ice in a beaker">
-        <a class="current-page">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="contact.html" style="margin-right: 30px;">Contact</a>
+        <a class="nav-link current-page">Home</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="hobbies.html">Hobbies</a>
+        <a class="nav-link" href="contact.html" style="margin-right: 30px;">Contact</a>
+
     </nav>
 
     <header class="header" style="height: 100vh;">
             <h1>Hello!</h1>
             <h2>I'm Kenzie, the maker of this website</h2>
-        <a href="#main" class="scroll" >↧</a>
+        <a href="#main" class="scroll">↧</a>
     </header>
 
-    <div id="main" style="padding-bottom: 6vw;">
+    <div id="main" class="home" style="padding-bottom: 6vw;">
 
         <h3 class="appear-top1">About me</h3>
         <p class="appear-left1">I am a student at the School of Science of Technology, Singapore. I have done many projects, especially those related to coding. </p>

@@ -9,26 +9,77 @@
     <link rel="icon" type="image/x-icon" href="images/PFP.png">
 
     <link rel="stylesheet" href="style.css">
-    <link rel= "stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-
-    <meta name="author" content="Kenzie">
-    <meta name="description" content="Kenzie's personal website">
-    <meta name="keywords" content="Kenzie">
 </head>
 <body>
 
     <nav>
+
+        <div class="menu">
+            <button onclick="menu()" class="menu-selector">≡</button>
+            <div class="drop">
+                <a href="home.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a class="current-page">Contact</a>
+            </div>
+        </div>
+
         <img src="images/PFP.png" alt="My porfile picture, dry ice in a beaker">
-        <a href="home.html">Home</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a class="current-page" style="margin-right: 30px;">Contact</a>
+        <a class="nav-link">Home</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="hobbies.html">Hobbies</a>
+        <a class="nav-link current-page" style="margin-right: 30px;">Contact</a>
+
     </nav>
 
     <header>
         <h1>Contact</h1>
         <h2>AKA my socials and contact methods</h2>
     </header>
+
+    <div id="main">
+
+        <h3 class="appear-top1">The various methods that you can contact me by:</h3>
+
+        <div class="about two">
+
+            <div class="item1 appear-left1">
+                <img src="images/gmail.png" alt="Logo of gmail">
+                <h3>Email me!</h3>
+                <ul>
+                    <li>My school email: kenzie_vimalaputta_irawan@s2022.ssts.edu.sg </li>
+                    <li>My personal email: kenzie.irawan11@gmail.com </li>
+                </ul>
+                <span class="span e2">
+                    <a class="span1" href="mailto:kenzie_vimalaputta_irawan@s2022.ssts.edu.sg">Email me (School)</a>
+                    <a class="span2" href="mailto:kenzie.irawan11@gmail.com"> Email me (Personal)</a>
+                </span>
+            </div>
+
+            <div class="item2 appear-left2">
+                <img src="images/social-media.png" alt="Picture of different social media logos">
+                <h3>My socials:</h3>
+                <span class="span e4">
+                    <a class="span1" href="">My Youtube</a>
+                    <a class="span2" href="">My Instagram</a>
+                    <a class="span3" href="">My Github</a>
+                    <a class="span4" href="">My Spotify</a>
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <h3>Copyright © 2023 Kenzie</h3>
+        <div>
+            <p>Shout out to <a href="https://www.flaticon.com" target="_blank">Flaticon</a> for the icons used in the project:</p>
+            <p><a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icons created by Pixel perfect - Flaticon</a></p>
+            <p></p>
+            <p></p>
+        </div>
+    </footer>
 
 </body>
 

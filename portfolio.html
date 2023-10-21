@@ -9,20 +9,27 @@
     <link rel="icon" type="image/x-icon" href="images/PFP.png">
 
     <link rel="stylesheet" href="style.css">
-    <link rel= "stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-
-    <meta name="author" content="Kenzie">
-    <meta name="description" content="Kenzie's personal website">
-    <meta name="keywords" content="Kenzie">
 </head>
 <body>
 
     <nav>
+
+        <div class="menu">
+            <button onclick="menu()" class="menu-selector">≡</button>
+            <div class="drop">
+                <a href="home.html">Home</a>
+                <a class="current-page">Portfolio</a>
+                <a href="hobbies.html">Hobbies</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
         <img src="images/PFP.png" alt="My porfile picture, dry ice in a beaker">
-        <a href="home.html">Home</a>
-        <a class="current-page">Portfolio</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="contact.html" style="margin-right: 30px;">Contact</a>
+        <a class="nav-link" href="home.html">Home</a>
+        <a class="nav-link current-page">Portfolio</a>
+        <a class="nav-link" href="hobbies.html">Hobbies</a>
+        <a class="nav-link" href="contact.html" style="margin-right: 30px;">Contact</a>
+
     </nav>
 
     <header>

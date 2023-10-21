@@ -7,5 +7,6 @@ function navBarAppear() {
         document.querySelector(".scroll").style.animation = "none";
     } else {
         document.querySelector("nav").style.top = "-100px";
+        document.querySelector(".drop").style.display = "none";
     }
 }
