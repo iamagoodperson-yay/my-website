@@ -38,7 +38,7 @@ nav {
 
     background-color: #252c6e;
 
-    width: 100vw;
+    width: 100%;
     height: fit-content;
 
     transition: 0.3s ease-in-out;
@@ -237,7 +237,6 @@ header h2 { font-size: 2rem; animation: inBottom 0.5s 0.3s backwards; }
 
 .about div img {
     height: 20vh;
-    width: fit-content;
 
     margin-bottom: 3vh;
     align-self: center;

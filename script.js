@@ -38,7 +38,3 @@ function menu(){
     drop.style.display = "none";
   }
 }
-
-window.addEventListener("resize", () => {
-  console.log(window.innerWidth)
-});
